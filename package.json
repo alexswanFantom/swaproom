@@ -2,11 +2,11 @@
   "name": "swaproom",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
+  "scripts": {
+    "start": "node claim.js"
+  },
   "dependencies": {
     "axios": "^1.4.0"
   },
-  "scripts": {
-    "start" : 'node claim.js'
-  }
+  "license": "MIT"
 }
