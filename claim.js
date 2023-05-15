@@ -32,7 +32,7 @@ async function claimARB(address) {
           " Wait for one hours!!" +
           color.RESET
       );
-      await sleep(250000);
+      await sleep(1250000);
       await claimARB(address);
     } else {
       console.log(
@@ -44,7 +44,7 @@ async function claimARB(address) {
           color.RESET
       );
       status = true;
-      await sleep(600000);
+      await sleep(3600000);
       await claimARB(address);
     }
     return status;
